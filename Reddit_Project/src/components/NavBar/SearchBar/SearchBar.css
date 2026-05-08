@@ -1,7 +1,10 @@
 .searchBar {
-    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     height: 40px;
-    text-align: center;
+    text-align: left;
 
     border-radius: 99px;
     color: #09a1ed;
@@ -10,48 +13,65 @@
     font-size: 20px;
     font-weight: bold;
 
+    padding: 0 12px;
+    gap: 10px;
+
+    background: white;
+    border: 2px solid transparent;
+
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(90deg, #09a1ed, #845bb3) border-box;
+}
+
+.searchBarHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-
-    padding: 2px;
-    background:
-        linear-gradient(white, white) padding-box,
-        linear-gradient(
-            90deg,
-            #09a1ed 0%,
-            #845bb3 50%,
-            #09a1ed 100%
-        ) border-box;
-    background-size: 200% 200%;
-    align-items: center;
-    border: 2px solid transparent;
+    width: 500px;
 }
 
-.searchBar_holder {
-    padding-bottom: 40px;
+.searchBar input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    text-align: left;
+    color: #09a1ed;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 input::placeholder {
-color: #09a1ed;
-font-family: sans-serif;
-opacity: 1;
+    color: #09a1ed;
+    font-family: sans-serif;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 18px;
 }
-
-
-.searchBar input:focus {
-    outline: none;
+ 
+.button {
+    border-radius: 99px;
+    width: 100px;
+    background: none;
+    cursor: pointer;
+    color: #845bb3;
+    margin-left: auto;
+    padding: 5px;
+    font-weight: bolder;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(90deg, #09a1ed, #845bb3) border-box;
+    font-size: 16px;
     border: 2px solid transparent;
-    box-shadow: none;
-    color: black;
 }
 
-.searchBar:focus-within {
-    filter: brightness(1.05);
-}
-
-.searchBar active {
-    border: None;
-    color: black;
+.button:active {
+    background: linear-gradient(90deg, #09a1ed, #845bb3);
+    color: white;
 }
 
