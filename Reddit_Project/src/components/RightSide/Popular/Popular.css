@@ -1,0 +1,12 @@
+.popularHolder {
+    color: #845bb3;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 500px;
+    width: auto;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
+    background-color: white;
+
+    overflow-y: auto;       /* Vertical scroll when needed */
+    overflow-x: hidden;     /* Hide horizontal scroll */
+}
