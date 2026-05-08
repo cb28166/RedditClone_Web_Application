@@ -1,6 +1,3 @@
-* {
-  width: 100%;
-}
 
 .layout {
   background-color: whitesmoke;
@@ -10,4 +7,22 @@
   display: flex;
   flex-direction: row;
   text-align: center;
+}
+
+.sideLeft {
+  flex: 0 0 350px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.sideRight {
+  flex: 0 0 350px;
+  align-items: center;
+  text-align: center;
+  box-shadow: -2px 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.middle {
+  flex: 1;
 }

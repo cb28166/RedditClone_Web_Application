@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import './App.css';
 import NavBar from "./components/NavBar/NavBar.jsx";
+import LeftSide from './components/LeftSide/LeftSide.jsx';
+import MainSection from './components/MainSection/MainSection.jsx';
+import RightSide from './components/RightSide/RightSide.jsx';
 
 function App() {
 
@@ -8,9 +11,15 @@ function App() {
     <>
       <NavBar />
       <section className="layout">
-          <h1>left Side</h1>
-          <h1>Main Section</h1>
-          <h1>Right side</h1>
+        <div className='sideLeft'>
+          <LeftSide/>
+        </div>
+        <div className='middle'>
+          <MainSection/>
+        </div>
+        <div className='sideRight'>
+          <RightSide/>
+        </div>
       </section>
     </>
   )
