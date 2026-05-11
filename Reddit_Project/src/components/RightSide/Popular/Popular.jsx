@@ -1,10 +1,11 @@
 import React from "react";
 import "./Popular.css";
+import SubRedditCard from "../../LeftSide/Recents/SubRedditCard/SubRedditCard";
 
 function Popular() {
     return (
         <div className="popularHolder">
-            <h3>Insert Popular</h3>
+            <SubRedditCard />
         </div>
     )
 }

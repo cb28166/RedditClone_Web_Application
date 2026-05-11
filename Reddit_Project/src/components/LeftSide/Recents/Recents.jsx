@@ -1,10 +1,11 @@
 import React from "react";
 import "./Recents.css";
+import SubRedditCard from "./SubRedditCard/SubRedditCard";
 
 function Recents() {
     return (
         <div className="recentsHolder">
-          <h1>Insert Recents</h1>  
+          <SubRedditCard />
         </div>
     )
 }
