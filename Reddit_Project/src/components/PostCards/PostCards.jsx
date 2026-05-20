@@ -2,16 +2,12 @@ import React from "react";
 import "./PostCards.css";
 import PostCard from "./PostCard/PostCard";
 
-function PostCards() {
-
-    //fake data were using to test
-    let testPost = [{postName: "Check this out"}, {postName: "BRU! No Way"}]
-
+function PostCards({ array_posts }) {
 
     return (
         <div className="postCards">
-            {testPost.map((post, index) => (
-                <PostCard postName={post.postName} key={index}/>
+            {array_posts.map((post, index) => (
+                <PostCard id={post.id} title={post.title} author={post.author} subreddit={post.subreddit} content={post.content} date={post.date}/>
             ))}
         </div>
     )

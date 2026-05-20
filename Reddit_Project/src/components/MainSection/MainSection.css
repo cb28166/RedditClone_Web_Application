@@ -5,3 +5,14 @@
     height: 100%;
 }
 
+.current_subreddit_info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+

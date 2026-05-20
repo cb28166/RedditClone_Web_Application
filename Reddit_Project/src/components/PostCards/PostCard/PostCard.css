@@ -1,3 +1,57 @@
-postCard {
-    color: blue;
+.postCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+
+    margin: 30px;
+    margin-left: 60px;
+    margin-right: 60px; 
+    padding: 15px;
+
+    border-radius: 15px;
+    background: white;
+    border: 2px solid transparent;
+    border-radius: 12px;
+
+    background-image:
+        linear-gradient(white, white),
+        linear-gradient(90deg, #09a1ed, #845bb3);
+
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    transition: background 1s ease;
+}
+
+.postCard:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.post_info {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    padding-top: 10px;
+    gap: 5px;
+}
+
+.top_post_info {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.title {
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
 }
