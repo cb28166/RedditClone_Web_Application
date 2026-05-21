@@ -18,8 +18,7 @@ function MainSection() {
     return (
         <div className="mainSectionHolder">
             <div className="current_subreddit_info">
-                <p>This is the current subreddit:</p>
-                <p>{selectedSubreddit}</p>
+                <p>fr/{selectedSubreddit}</p>
             </div>
             <PostCards array_posts={filteredPost} />
         </div>

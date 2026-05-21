@@ -1,7 +1,6 @@
 .mainSectionHolder {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     height: 100%;
 }
 
@@ -13,6 +12,19 @@
     padding-left: 15px;
     padding-top: 5px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 22px;
+
+    text-decoration: underline;
+
+    background: linear-gradient(90deg, #09a1ed, #845bb3);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    background-size: 200%;
+
+    font-family: "Supermercado One";
 }
 

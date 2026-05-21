@@ -7,7 +7,15 @@ function PostCards({ array_posts }) {
     return (
         <div className="postCards">
             {array_posts.map((post, index) => (
-                <PostCard id={post.id} title={post.title} author={post.author} subreddit={post.subreddit} content={post.content} date={post.date}/>
+                <PostCard 
+                    id={post.id} 
+                    title={post.title} 
+                    author={post.author} 
+                    subreddit={post.subreddit} 
+                    content={post.content} 
+                    date={post.date}
+                    likes={post.likes}
+                    userVote={post.userVote}/>
             ))}
         </div>
     )
