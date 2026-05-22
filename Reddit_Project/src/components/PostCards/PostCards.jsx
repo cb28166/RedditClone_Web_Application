@@ -15,7 +15,8 @@ function PostCards({ array_posts }) {
                     content={post.content} 
                     date={post.date}
                     likes={post.likes}
-                    userVote={post.userVote}/>
+                    userVote={post.userVote}
+                    comments={post.comments}/>
             ))}
         </div>
     )

@@ -38,6 +38,7 @@
     padding-top: 10px;
     gap: 5px;
     font-size: 13px;
+    border-top: 2px bold #845bb3;
 }
 
 .top_post_info {
@@ -53,7 +54,7 @@
 .title {
     padding-bottom: 10px;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -113,3 +114,92 @@
     stroke: #845bb3;
     fill: #845bb3;
 }
+
+.comments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments_button {
+    background: transparent;
+    border: none;
+}
+
+.comments svg {
+    background: transparent;
+    border: none;
+    transition: fill 0.5s ease, stroke 0.5s ease, transform 0.5s ease;
+}
+
+.comments p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.comments_button:hover svg {
+    fill: #845bb3;
+    stroke: #845bb3;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.comment_bubbles {
+    gap: 15px;
+}
+
+.comments_section {
+    max-height: 400px;
+    overflow-y: auto;
+
+    scrollbar-width: auto;
+    scrollbar-color: #845bb3 #f1f1f1;
+}
+
+.comments_section::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        180deg,
+        #09a1ed,
+        #845bb3
+    );
+}
+
+.comments_section::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.more_comments_button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: "Supermercado One";
+    color:#09a1ed;
+    margin: 5px;
+}
+
+.more_comments_button:hover {
+    background: white;
+    border: 2px solid transparent;
+    border-radius: 12px;
+
+    background-image:
+        linear-gradient(white, white),
+        linear-gradient(90deg, #09a1ed, #845bb3);
+
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    transition: background 1s ease;
+}
+
+.more_comments_button:active {
+    border: 3px solid transparent;
+}
+
+
