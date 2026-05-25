@@ -14,6 +14,10 @@ function MainSection() {
         (post) => post.subreddit === selectedSubreddit
     )
 
+    console.log("ALL POSTS:", post_array);
+    console.log("SELECTED:", selectedSubreddit);
+    console.log("FILTERED:", filteredPost);
+
 
     return (
         <div className="mainSectionHolder">

@@ -24,9 +24,8 @@
 }
 
 .postCard:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
-    cursor: pointer;
 }
 
 .post_info {
@@ -51,12 +50,26 @@
     font-size: 12px;
 }
 
+.subreddit {
+    color:#09a1ed;
+}
+
+.posted_by {
+    color:#845bb3;
+}
+
+.content {
+    text-align: left;
+    cursor: pointer;
+}
+
 .title {
     padding-bottom: 10px;
     text-align: left;
     font-size: 18px;
     text-decoration: underline;
     font-weight: bold;
+    color:#09a1ed;
 }
 
 .button_section {

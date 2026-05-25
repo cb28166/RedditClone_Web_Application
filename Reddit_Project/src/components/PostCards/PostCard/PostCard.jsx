@@ -5,23 +5,32 @@ import { ArrowBigUp, ArrowBigDown, MessageCircle } from "lucide-react";
 import { useDispatch } from "react-redux";
 import { downvote, upvote } from "../../../features/Posts/postSlice";
 import Comments from "../../Comments/Comments";
+import { formatDistanceToNow } from "date-fns";
 
-function PostCard({ id, title, author, subreddit, content, date, likes, userVote, comments }) {
+function PostCard({ id, title, author, subreddit, selftext, date, ups, userVote, comments, num_comments}) {
 
     const dispatch = useDispatch();
-    const comments_size = comments.length;
+    const comments_size = num_comments;
     const [ showComments, setShowComments ] = useState(false);
     const [ visibleCommentCount, setVisibleCommentCount ] = useState(5);
+    const [isExpanded, setIsExpanded] = useState(false);
+    const text = selftext || "";
     console.log(showComments);
 
     return (
         <div className="postCard">
             <div className="top_post_info">
-                <div>fr/{subreddit}</div>
-                <div>Posted by: {author}</div>
+                <div className="subreddit">fr/{subreddit}</div>
+                <div className="posted_by">Posted by: {author}</div>
             </div>
             <div className="title">{title}</div>
-            <div className="content">{content}</div>
+            <div className="content" onClick={() => setIsExpanded(!isExpanded)}>
+                 {isExpanded
+                    ? text
+                    : text.length > 250
+                        ? text.slice(0, 250) + "..." 
+                        : text}
+            </div>
             <div className="post_info">
                 <div className="button_section">
                     <button 
@@ -29,14 +38,14 @@ function PostCard({ id, title, author, subreddit, content, date, likes, userVote
                         onClick={() => dispatch(upvote(id))}>
                             <ArrowBigUp /> 
                     </button>
-                    <p>{likes}</p>
+                    <p>{ups}</p>
                     <button 
                         className={userVote === "down" ? "downvote activeDownvote" : "downvote"} 
                         onClick={() => dispatch(downvote(id))}>
                             <ArrowBigDown />
                     </button>  
                 </div>
-                <div className="date">{date}</div>
+                <div className="date">{formatDistanceToNow(new Date(date * 1000), { addSuffix: true })}</div>
                 <div className="comments">
                     <button 
                         className="comments_button"
@@ -53,7 +62,7 @@ function PostCard({ id, title, author, subreddit, content, date, likes, userVote
                         <Comments
                             key={comment.id}
                             author={comment.author}
-                            text={comment.text}
+                            text={comment.body}
                             className="comment_bubbles"
                         />
                     ))}
