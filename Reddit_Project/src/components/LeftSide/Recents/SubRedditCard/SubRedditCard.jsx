@@ -1,9 +1,9 @@
 import React from "react";
 
 
-function SubRedditCard() {
+function SubRedditCard({ key, name}) {
     return (
-        <h1>Subreddit 1</h1>
+        <h1>fr/{name}</h1>
     )
 }
 

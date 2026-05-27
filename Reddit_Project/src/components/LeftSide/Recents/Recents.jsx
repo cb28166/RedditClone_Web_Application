@@ -1,12 +1,11 @@
 import React from "react";
 import "./Recents.css";
-import SubRedditCard from "./SubRedditCard/SubRedditCard";
 
-function Recents() {
+function Recents({ key, name, onClick }) {
     return (
-        <div className="recentsHolder">
-            <SubRedditCard />
-        </div>
+        <button className="recents_buttons" onClick={onClick}>
+            fr/{name}
+        </button>
     )
 }
 

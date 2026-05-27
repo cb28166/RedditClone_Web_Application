@@ -2,7 +2,9 @@ import React from "react";
 import "./LeftSide.css";
 import Recents from "./Recents/Recents";
 import { setSelectedSubReddit } from "../../features/subReddits/subRedditsSlice";
+import { addRecent } from "../../features/recents/recentsSlice";
 import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 const fakeSubreddits = [
         "Home",
@@ -13,17 +15,30 @@ const fakeSubreddits = [
     ];
 
 
+
+
 function LeftSide() {
 
     const dispatch = useDispatch();
+    const recent_array = useSelector((state) => state.recents.recent_subreddits);
+    console.log("THIS is the recents_array: " + recent_array);
 
     return (
         <div className="leftSideHolder">
             <h2>Recent Subreddits</h2>
-            <Recents />
+            <div className="recentsHolder">
+                {recent_array?.map((subreddit) => (
+                    <Recents
+                        key={subreddit}
+                        name={subreddit}
+                        onClick={() => dispatch(setSelectedSubReddit(subreddit))}
+                    />
+                ))}
+            </div>
             {fakeSubreddits.map((name) => (
                 <button key={name} onClick={() => {
                     dispatch(setSelectedSubReddit(name))
+                    dispatch(addRecent(name))
                 }}>
                     {name}
                 </button>

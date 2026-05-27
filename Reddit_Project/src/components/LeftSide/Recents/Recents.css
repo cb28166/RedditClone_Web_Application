@@ -1,8 +1,20 @@
-.recentsHolder {
-    color: blue;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 400px;
-    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
-    background-color: white;
+.recents_buttons {
+    background: transparent;
+    border: none;
+
+    width: 100%;
+    padding: 6px 10px;
+
+    text-align: left;
+
+    font-family: "Supermercado One";
+    color: #09a1ed;
+    font-size: 24px;
+}
+
+.recents_buttons:hover {
+    cursor: pointer;
+    color: #845bb3;
+    font-size: 26px;
+    text-decoration: underline;
 }
