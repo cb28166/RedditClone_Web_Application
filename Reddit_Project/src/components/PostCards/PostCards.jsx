@@ -18,7 +18,6 @@ function PostCards({ array_posts }) {
                     author={post.author} 
                     subreddit={post.subreddit} 
                     date={post.created_utc}
-                    userVote={post.userVote}
                     ups={post.ups}
                     num_comments={post.num_comments}
                     comments={post.comments}/>

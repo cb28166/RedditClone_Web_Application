@@ -13,13 +13,6 @@ const subRedditSlice = createSlice({
     }
 })
 
-const fakeSubreddits = [
-  "Home",
-  "React",
-  "Gaming",
-  "Movies",
-  "Music"
-];
 
 
 export default subRedditSlice.reducer;

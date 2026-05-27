@@ -9,7 +9,7 @@ const postSlice = createSlice({
     id: "t3_001",
     title: "Just finished my React Reddit clone and Redux finally clicked",
     selftext:
-    "I used to struggle a lot with Redux state management but building this project made everything finally make sense. The way slices, reducers, and dispatch work together feels way less confusing now.",
+    "I used to struggle a lot with Redux state management but building this project made everything finally make sense. The way slices, reducers, and dispatch work together feels way less confusing now. I used to struggle a lot with Redux state management but building this project made everything finally make sense. The way slices, reducers, and dispatch work together feels way less confusing now. I used to struggle a lot with Redux state management but building this project made everything finally make sense. The way slices, reducers, and dispatch work together feels way less confusing now.",
     url: "",
     post_hint: "self",
     author: "react_dev",
@@ -17,7 +17,6 @@ const postSlice = createSlice({
     ups: 1204,
     num_comments: 34,
     created_utc: 1716600000,
-    userVote: null,
     comments: [
       { id: "c1", author: "reduxFan", body: "This is exactly how Redux finally clicked for me too." },
       { id: "c2", author: "frontendGuy", body: "Building projects > tutorials every time." }
@@ -36,7 +35,6 @@ const postSlice = createSlice({
     ups: 842,
     num_comments: 18,
     created_utc: 1716601000,
-    userVote: null,
     comments: [
       { id: "c1", author: "seniorDev", body: "Feature-based structure scales way better." }
     ]
@@ -54,7 +52,6 @@ const postSlice = createSlice({
     ups: 9821,
     num_comments: 412,
     created_utc: 1716602000,
-    userVote: null,
     comments: [
       { id: "c1", author: "lootHunter", body: "What game is it? Sounds like I need it." },
       { id: "c2", author: "npcEnergy", body: "We need more games like this honestly." }
@@ -72,7 +69,6 @@ const postSlice = createSlice({
     ups: 15342,
     num_comments: 98,
     created_utc: 1716603000,
-    userVote: null,
     comments: [
       { id: "c1", author: "rgbFan", body: "The cable management is insane." }
     ]
@@ -90,7 +86,6 @@ const postSlice = createSlice({
     ups: 4321,
     num_comments: 210,
     created_utc: 1716604000,
-    userVote: null,
     comments: [
       { id: "c1", author: "cinephile", body: "I actually love long movies if they’re good." },
       { id: "c2", author: "shortAttentionSpan", body: "Same. 90–120 mins is the sweet spot." }
@@ -109,7 +104,6 @@ const postSlice = createSlice({
     ups: 1902,
     num_comments: 87,
     created_utc: 1716605000,
-    userVote: null,
     comments: [
       { id: "c1", author: "critic", body: "Check out the new sci-fi releases — surprisingly good this year." }
     ]
@@ -127,7 +121,6 @@ const postSlice = createSlice({
     ups: 5532,
     num_comments: 144,
     created_utc: 1716606000,
-    userVote: null,
     comments: [
       { id: "c1", author: "lofiFan", body: "Night + headphones = perfect combo." }
     ]
@@ -145,7 +138,6 @@ const postSlice = createSlice({
     ups: 3112,
     num_comments: 76,
     created_utc: 1716607000,
-    userVote: null,
     comments: [
       { id: "c1", author: "psychNerd", body: "Music is strongly tied to emotional memory centers." }
     ]
@@ -163,7 +155,6 @@ const postSlice = createSlice({
     ups: 9021,
     num_comments: 301,
     created_utc: 1716608000,
-    userVote: null,
     comments: [
       { id: "c1", author: "addict", body: "Home feed is basically infinite dopamine." }
     ]
@@ -181,27 +172,30 @@ const postSlice = createSlice({
     ups: 6400,
     num_comments: 220,
     created_utc: 1779686823,
-    userVote: null,
     comments: [
       { id: "c1", author: "researcher", body: "Yes, variable reward systems increase engagement significantly." }
     ]
   }
-]         
+    ],
+    userVotes: {}         
     },
     reducers: {
         downvote: (state, action) => {
             const post = state.posts.find(p => p.id === action.payload)
+
             if (!post) {
                 return 
             }
 
-            else if (post.userVote === "down") {
-                post.userVote = null;
+            const currentVote = state.userVotes[post.id];
+
+            if (currentVote === "down") {
+                delete state.userVotes[post.id];
                 post.ups += 1
                 return 
             }
 
-            else if (post.userVote === "up") {
+            else if (currentVote === "up") {
                 post.ups -= 2;
             }
 
@@ -210,7 +204,7 @@ const postSlice = createSlice({
                 post.ups -= 1;
             }
 
-            post.userVote = "down";
+            state.userVotes[post.id] = "down";
         },
         upvote: (state, action) => {
             const post = state.posts.find(p => p.id === action.payload)
@@ -218,13 +212,15 @@ const postSlice = createSlice({
                 return
             }
 
-            else if (post.userVote === "up") {
-                post.userVote = null;
+            const currentVote = state.userVotes[post.id];
+
+            if (currentVote === "up") {
+                delete state.userVotes[post.id];
                 post.ups -= 1;
                 return 
             }
 
-            else if (post.userVote === "down") {
+            else if (currentVote === "down") {
                 post.ups += 2;
             }
 
@@ -232,7 +228,7 @@ const postSlice = createSlice({
                 post.ups += 1;
             }
 
-            post.userVote = "up";
+            state.userVotes[post.id] = "up";
         }
     }
 });
