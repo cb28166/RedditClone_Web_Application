@@ -23,17 +23,30 @@ function LeftSide() {
     const recent_array = useSelector((state) => state.recents.recent_subreddits);
     console.log("THIS is the recents_array: " + recent_array);
 
+    const subreddit_data = useSelector(
+            (state) => state.subReddits.subReddits
+        );
+
     return (
         <div className="leftSideHolder">
             <h2>Recent Subreddits</h2>
             <div className="recentsHolder">
-                {recent_array?.map((subreddit) => (
-                    <Recents
+                {recent_array?.map((subreddit) => {
+
+                    const subData = subreddit_data.find(
+                        (sub) => sub.name === subreddit
+                    );
+
+
+                    return (
+                        <Recents
                         key={subreddit}
                         name={subreddit}
+                        icon={subData?.icon}
                         onClick={() => dispatch(setSelectedSubReddit(subreddit))}
                     />
-                ))}
+                    );
+                })}
             </div>
             {fakeSubreddits.map((name) => (
                 <button key={name} onClick={() => {

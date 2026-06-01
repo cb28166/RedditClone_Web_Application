@@ -1,4 +1,7 @@
 .recents_buttons {
+    display: flex;
+    align-items: center;
+
     background: transparent;
     border: none;
 
@@ -10,6 +13,8 @@
     font-family: "Supermercado One";
     color: #09a1ed;
     font-size: 24px;
+
+    gap: 10px;
 }
 
 .recents_buttons:hover {
@@ -17,4 +22,17 @@
     color: #845bb3;
     font-size: 26px;
     text-decoration: underline;
+
+    transform: translateX(4px);
+
+    border-radius: 8px;
+}
+
+.subreddit_icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+    object-fit: cover;
+    padding-left: 5px;
 }

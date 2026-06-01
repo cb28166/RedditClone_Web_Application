@@ -7,6 +7,45 @@
     box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
     background-color: white;
 
-    overflow-y: auto;       /* Vertical scroll when needed */
-    overflow-x: hidden;     /* Hide horizontal scroll */
+    overflow-y: auto;      
+    overflow-x: hidden;     
+}
+
+.popular_buttons {
+    display: flex;
+    align-items: center;
+
+    background: transparent;
+    border: none;
+
+    width: 100%;
+    padding: 6px 10px;
+
+    text-align: left;
+
+    font-family: "Supermercado One";
+    color:#845bb3;
+    font-size: 24px;
+
+    gap: 10px;
+}
+
+.popular_buttons:hover {
+    cursor: pointer;
+    color: #09a1ed;
+    font-size: 26px;
+    text-decoration: underline;
+
+    transform: translateX(4px);
+
+    border-radius: 8px;
+}
+
+.subreddit_icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+    object-fit: cover;
+    padding-left: 5px;
 }

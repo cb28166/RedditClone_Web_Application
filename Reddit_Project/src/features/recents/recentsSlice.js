@@ -11,7 +11,7 @@ const recentsSlice = createSlice({
 
             state.recent_subreddits = state.recent_subreddits.filter(sub => sub != subreddit)
             state.recent_subreddits.unshift(subreddit )
-            if (state.recent_subreddits.length > 6) {
+            if (state.recent_subreddits.length > 8) {
                 state.recent_subreddits.pop();
             }
         }
