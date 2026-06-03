@@ -6,17 +6,6 @@ import { addRecent } from "../../features/recents/recentsSlice";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 
-const fakeSubreddits = [
-        "Home",
-        "React",
-        "Gaming",
-        "Movies",
-        "Music"
-    ];
-
-
-
-
 function LeftSide() {
 
     const dispatch = useDispatch();
@@ -48,14 +37,6 @@ function LeftSide() {
                     );
                 })}
             </div>
-            {fakeSubreddits.map((name) => (
-                <button key={name} onClick={() => {
-                    dispatch(setSelectedSubReddit(name))
-                    dispatch(addRecent(name))
-                }}>
-                    {name}
-                </button>
-            ))}
         </div>
     )
 }

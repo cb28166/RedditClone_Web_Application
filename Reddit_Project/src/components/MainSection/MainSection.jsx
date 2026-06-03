@@ -10,6 +10,10 @@ function MainSection() {
         (state) => state.subReddits.subReddits
     );
 
+    const searchTerm = useSelector(
+        state => state.search.searchTerm
+    );
+
     const selectedSubreddit = useSelector((state) => state.subReddits.selectedSubReddit);
 
     const selectedSubreddit_data = subreddit_data.find(
@@ -20,27 +24,23 @@ function MainSection() {
     const post_array = useSelector((state) => state.posts.posts);
 
     const filteredPost = post_array.filter(
-        (post) => post.subreddit === selectedSubreddit
+        (post) => post.subreddit === selectedSubreddit_data?.name
     )
-
-    console.log("ALL POSTS:", post_array);
-    console.log("SELECTED:", selectedSubreddit);
-    console.log("FILTERED:", filteredPost);
-
 
     return (
         <div className="mainSectionHolder">
             <div className="current_subreddit_info">
                 <img
-                    src={selectedSubreddit_data.icon}
-                    alt={selectedSubreddit}
+                    src={selectedSubreddit_data?.icon}
+                    alt={selectedSubreddit_data?.name}
                     className="subreddit_icon_main"
                 />
-                <span>fr/{selectedSubreddit}</span>
+                <span>fr/{selectedSubreddit_data?.name}</span>
             </div>
             <PostCards array_posts={filteredPost} />
         </div>
     )
+
 }
 
 export default MainSection;
