@@ -100,6 +100,14 @@ const subRedditSlice = createSlice({
         followers: 7200000,
         icon: "https://api.dicebear.com/7.x/shapes/svg?seed=Art",
         description: "Digital art, paintings, sketches, and creative inspiration."
+    },
+
+    {
+        id: 13,
+        name: "Soccer",
+        followers: 3590,
+        icon: "https://api.dicebear.com/7.x/shapes/svg?seed=Art",
+        description: "All about soccer and discussions over the sport"
     }
     ]
     },

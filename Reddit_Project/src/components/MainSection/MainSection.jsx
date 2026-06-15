@@ -2,6 +2,7 @@ import React from "react";
 import "./MainSection.css";
 import PostCards from "../PostCards/PostCards";
 import { useSelector } from "react-redux";
+import { useEffect } from "react";
 
 
 function MainSection() {
@@ -26,6 +27,17 @@ function MainSection() {
     const filteredPost = post_array.filter(
         (post) => post.subreddit === selectedSubreddit_data?.name
     )
+
+    useEffect(() => {
+        fetch("/reddit/r/react/.json")
+            .then(response => response.json())
+            .then(data =>  {
+                console.log(data.data.children);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+    }, []);
 
     return (
         <div className="mainSectionHolder">
