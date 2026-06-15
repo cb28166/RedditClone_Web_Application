@@ -109,6 +109,8 @@ const subRedditSlice = createSlice({
         icon: "https://api.dicebear.com/7.x/shapes/svg?seed=Art",
         description: "All about soccer and discussions over the sport"
     }
+    //all mock data added just to show everything
+    
     ]
     },
     reducers: {
