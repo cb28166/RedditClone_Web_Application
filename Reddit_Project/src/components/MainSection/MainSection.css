@@ -1,10 +1,26 @@
 .mainSectionHolder {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 800px;
 
     overflow-y: scroll;
+    scrollbar-width: auto;
+    scrollbar-color: #09a1ed #f1f1f1;
 }
+
+.mainSectionHolder::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        180deg,
+        #09a1ed,
+        #845bb3
+    );
+}
+
+.mainSectionHolder::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
 
 .current_subreddit_info {
     display: flex;

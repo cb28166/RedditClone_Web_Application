@@ -14,7 +14,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "organized_life",
     subreddit: "Home",
-    ups: 1842,
+    ups: 84,
     num_comments: 12,
     created_utc: 1716600000,
     comments: [
@@ -27,11 +27,11 @@ const postSlice = createSlice({
     id: "t3_home_002",
     title: "My cozy reading corner setup after 3 months of tweaking",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://thf.bing.com/th/id/OIP.0OeVGn9CJg7tlGlvUqQW4QHaJ4?cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     post_hint: "image",
     author: "cozy_builder",
     subreddit: "Home",
-    ups: 2403,
+    ups: 24,
     num_comments: 18,
     created_utc: 1716600500,
     comments: [
@@ -49,7 +49,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "homeplanner",
     subreddit: "Home",
-    ups: 965,
+    ups: 96,
     num_comments: 27,
     created_utc: 1716601000,
     comments: [
@@ -63,11 +63,11 @@ const postSlice = createSlice({
     id: "t3_home_004",
     title: "Before and after: my living room transformation",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-YbQ6j_jwi8HdzU2NXb7QAg6fbEDUy2HKv9hIk0S_g&s=10",
     post_hint: "image",
     author: "roomrevamp",
     subreddit: "Home",
-    ups: 3102,
+    ups: 51,
     num_comments: 44,
     created_utc: 1716601200,
     comments: [
@@ -86,7 +86,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "habitbuilder",
     subreddit: "Home",
-    ups: 1520,
+    ups: 152,
     num_comments: 9,
     created_utc: 1716601400,
     comments: [
@@ -104,7 +104,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "kitchenflow",
     subreddit: "Home",
-    ups: 2011,
+    ups: 21,
     num_comments: 14,
     created_utc: 1716601600,
     comments: [
@@ -122,7 +122,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "spaceoptimizer",
     subreddit: "Home",
-    ups: 1744,
+    ups: 14,
     num_comments: 11,
     created_utc: 1716601800,
     comments: [
@@ -135,11 +135,11 @@ const postSlice = createSlice({
     id: "t3_home_008",
     title: "My bedroom setup after going for a minimalist style",
     selftext: "",
-    url: "https://images.unsplash.com/photo-3",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLmzJBzOQ5j262bjVB57_W0GeH4Ljm8EKfEAzCdeHAA&s=10",
     post_hint: "image",
     author: "minimalspace",
     subreddit: "Home",
-    ups: 2890,
+    ups: 20,
     num_comments: 23,
     created_utc: 1716602000,
     comments: [
@@ -152,11 +152,11 @@ const postSlice = createSlice({
     id: "t3_memes_001",
     title: "Me fixing one bug and suddenly 12 new ones appear",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://preview.redd.it/i-feel-as-though-we-are-all-as-defeated-as-coralines-dad-rn-v0-c7slncep71q41.jpg?width=640&crop=smart&auto=webp&s=f8304d027c1a0247d091d5ccaeccec64bb483bc5",
     post_hint: "image",
     author: "debugging_soul",
     subreddit: "Memes",
-    ups: 18200,
+    ups: 182,
     num_comments: 54,
     created_utc: 1716600000,
     comments: [
@@ -175,7 +175,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "imposter_dev",
     subreddit: "Memes",
-    ups: 13450,
+    ups: 134,
     num_comments: 38,
     created_utc: 1716600500,
     comments: [
@@ -188,11 +188,11 @@ const postSlice = createSlice({
     id: "t3_memes_003",
     title: "POV: You said 'one more match' at 2 AM",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://preview.redd.it/i-feel-as-though-we-are-all-as-defeated-as-coralines-dad-rn-v0-c7slncep71q41.jpg?width=640&crop=smart&auto=webp&s=f8304d027c1a0247d091d5ccaeccec64bb483bc5",
     post_hint: "image",
     author: "gamerbrain",
     subreddit: "Memes",
-    ups: 22100,
+    ups: 221,
     num_comments: 91,
     created_utc: 1716601000,
     comments: [
@@ -210,7 +210,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "oldschooldev",
     subreddit: "Memes",
-    ups: 16780,
+    ups: 16,
     num_comments: 29,
     created_utc: 1716601200,
     comments: [
@@ -228,7 +228,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "frontendstruggle",
     subreddit: "Memes",
-    ups: 19840,
+    ups: 19,
     num_comments: 47,
     created_utc: 1716601400,
     comments: [
@@ -241,11 +241,11 @@ const postSlice = createSlice({
     id: "t3_memes_006",
     title: "When production works but localhost is broken",
     selftext: "",
-    url: "https://images.unsplash.com/photo-3",
+    url: "https://preview.redd.it/i-feel-as-though-we-are-all-as-defeated-as-coralines-dad-rn-v0-c7slncep71q41.jpg?width=640&crop=smart&auto=webp&s=f8304d027c1a0247d091d5ccaeccec64bb483bc5",
     post_hint: "image",
     author: "deploypanic",
     subreddit: "Memes",
-    ups: 25000,
+    ups: 252,
     num_comments: 112,
     created_utc: 1716601600,
     comments: [
@@ -262,7 +262,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "middebug",
     subreddit: "Memes",
-    ups: 14500,
+    ups: 145,
     num_comments: 21,
     created_utc: 1716601800,
     comments: [
@@ -280,7 +280,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "suspiciousdev",
     subreddit: "Memes",
-    ups: 31000,
+    ups: 85,
     num_comments: 66,
     created_utc: 1716602000,
     comments: [
@@ -298,7 +298,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "questaddict",
     subreddit: "Gaming",
-    ups: 14200,
+    ups: 141,
     num_comments: 63,
     created_utc: 1716600000,
     comments: [
@@ -312,11 +312,11 @@ const postSlice = createSlice({
     id: "t3_gaming_002",
     title: "My current gaming setup after upgrading my desk and monitor",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZupQwJdB8STmXUh-duBkduFVQEeSH9csigIzf0czLKJnCB8Maj1OnFDo&s=10",
     post_hint: "image",
     author: "setupking",
     subreddit: "Gaming",
-    ups: 18900,
+    ups: 184,
     num_comments: 41,
     created_utc: 1716600500,
     comments: [
@@ -334,7 +334,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "efficientgamer",
     subreddit: "Gaming",
-    ups: 8700,
+    ups: 87,
     num_comments: 52,
     created_utc: 1716601000,
     comments: [
@@ -348,11 +348,11 @@ const postSlice = createSlice({
     id: "t3_gaming_004",
     title: "That moment when you finally beat a boss after 20 tries",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://s.yimg.com/ny/api/res/1.2/DC8zQvXk53Mq1PyAaBxODg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02MzU7Y2Y9d2VicA--/https://media.zenfs.com/en/ftw_outdoors_usa_today_article_609/ae3b4239dfa3e2da1180cdf9078cd7c2",
     post_hint: "image",
     author: "bossfighter",
     subreddit: "Gaming",
-    ups: 22100,
+    ups: 221,
     num_comments: 88,
     created_utc: 1716601200,
     comments: [
@@ -370,7 +370,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "platformdebate",
     subreddit: "Gaming",
-    ups: 10200,
+    ups: 102,
     num_comments: 140,
     created_utc: 1716601400,
     comments: [
@@ -389,7 +389,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "indieexplorer",
     subreddit: "Gaming",
-    ups: 7600,
+    ups: 76,
     num_comments: 29,
     created_utc: 1716601600,
     comments: [
@@ -402,11 +402,11 @@ const postSlice = createSlice({
     id: "t3_gaming_007",
     title: "This is what peak immersion looks like in modern gaming",
     selftext: "",
-    url: "https://images.unsplash.com/photo-3",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIFvr_Q2kcYa_qw_SQa7SpqkQY9e15h4m3k0F-0qt7tQUzDTFveZDiDE-&s=10",
     post_hint: "image",
     author: "immersedgamer",
     subreddit: "Gaming",
-    ups: 26500,
+    ups: 265,
     num_comments: 73,
     created_utc: 1716601800,
     comments: [
@@ -424,7 +424,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "controversialtake",
     subreddit: "Gaming",
-    ups: 11800,
+    ups: 118,
     num_comments: 96,
     created_utc: 1716602000,
     comments: [
@@ -443,7 +443,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "cinephile42",
     subreddit: "Movies",
-    ups: 15800,
+    ups: 158,
     num_comments: 74,
     created_utc: 1716600000,
     comments: [
@@ -457,11 +457,11 @@ const postSlice = createSlice({
     id: "t3_movies_002",
     title: "Best cinematography you’ve ever seen in a film?",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://images.squarespace-cdn.com/content/v1/5c27df4a372b96a62fef2e22/1635281212267-W19OCAERSR7G668WLZUD/58.jpg",
     post_hint: "image",
     author: "framehunter",
     subreddit: "Movies",
-    ups: 13200,
+    ups: 132,
     num_comments: 51,
     created_utc: 1716600500,
     comments: [
@@ -479,7 +479,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "hiddenfilms",
     subreddit: "Movies",
-    ups: 9200,
+    ups: 92,
     num_comments: 62,
     created_utc: 1716601000,
     comments: [
@@ -492,11 +492,11 @@ const postSlice = createSlice({
     id: "t3_movies_004",
     title: "That moment when the plot twist completely blindsides you",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKpmA38CHrq32arf1NkAFW7jq8T_jvF1M9axsw1hPPew&s=10",
     post_hint: "image",
     author: "twistlover",
     subreddit: "Movies",
-    ups: 20100,
+    ups: 201,
     num_comments: 89,
     created_utc: 1716601200,
     comments: [
@@ -514,7 +514,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "rewatcher",
     subreddit: "Movies",
-    ups: 11000,
+    ups: 11,
     num_comments: 45,
     created_utc: 1716601400,
     comments: [
@@ -531,7 +531,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "introlover",
     subreddit: "Movies",
-    ups: 9800,
+    ups: 98,
     num_comments: 33,
     created_utc: 1716601600,
     comments: [
@@ -544,11 +544,11 @@ const postSlice = createSlice({
     id: "t3_movies_007",
     title: "Iconic movie scenes that live rent free in your head",
     selftext: "",
-    url: "https://images.unsplash.com/photo-3",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdswdkO1pTd2DqLZXvSBK3CwNx8CsqeaQyD6pLDh71IA&s=10",
     post_hint: "image",
     author: "memoriesfilm",
     subreddit: "Movies",
-    ups: 17600,
+    ups: 176,
     num_comments: 58,
     created_utc: 1716601800,
     comments: [
@@ -566,7 +566,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "hot_take",
     subreddit: "Movies",
-    ups: 8400,
+    ups: 84,
     num_comments: 120,
     created_utc: 1716602000,
     comments: [
@@ -584,7 +584,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "soundjourney",
     subreddit: "Music",
-    ups: 17200,
+    ups: 172,
     num_comments: 88,
     created_utc: 1716600000,
     comments: [
@@ -602,7 +602,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "playlistbuilder",
     subreddit: "Music",
-    ups: 9400,
+    ups: 94,
     num_comments: 61,
     created_utc: 1716600500,
     comments: [
@@ -615,11 +615,11 @@ const postSlice = createSlice({
     id: "t3_music_003",
     title: "Best live performance you’ve ever watched?",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt7PvOrVlictgNTr8B3kIKOtxLM5gZpCgjAVnovN3uYA&s=10",
     post_hint: "image",
     author: "livefan",
     subreddit: "Music",
-    ups: 14500,
+    ups: 145,
     num_comments: 72,
     created_utc: 1716601000,
     comments: [
@@ -637,7 +637,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "moodboost",
     subreddit: "Music",
-    ups: 7600,
+    ups: 76,
     num_comments: 40,
     created_utc: 1716601200,
     comments: [
@@ -655,7 +655,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "vinylcurious",
     subreddit: "Music",
-    ups: 8900,
+    ups: 89,
     num_comments: 55,
     created_utc: 1716601400,
     comments: [
@@ -672,7 +672,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "undergroundhunter",
     subreddit: "Music",
-    ups: 10200,
+    ups: 102,
     num_comments: 66,
     created_utc: 1716601600,
     comments: [
@@ -685,11 +685,11 @@ const postSlice = createSlice({
     id: "t3_music_007",
     title: "This album cover is pure art",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://m.media-amazon.com/images/I/81x7Allw9SL._UF1000,1000_QL80_.jpg",
     post_hint: "image",
     author: "albumartlover",
     subreddit: "Music",
-    ups: 11800,
+    ups: 118,
     num_comments: 29,
     created_utc: 1716601800,
     comments: [
@@ -707,7 +707,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "timelesslistener",
     subreddit: "Music",
-    ups: 13400,
+    ups: 134,
     num_comments: 91,
     created_utc: 1716602000,
     comments: [
@@ -724,7 +724,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "aiwatcher",
     subreddit: "Technology",
-    ups: 18200,
+    ups: 182,
     num_comments: 94,
     created_utc: 1716600000,
     comments: [
@@ -737,11 +737,11 @@ const postSlice = createSlice({
     id: "t3_tech_002",
     title: "My minimalist coding setup for maximum focus",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNDE3K8X1woJvDLZnTfB8bjOCq3Kos1YoG3yV2qcRoGxTAU6ILhYlzE3B_&s=10",
     post_hint: "image",
     author: "devsetup",
     subreddit: "Technology",
-    ups: 14200,
+    ups: 142,
     num_comments: 38,
     created_utc: 1716600500,
     comments: [
@@ -759,7 +759,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "techdebate",
     subreddit: "Technology",
-    ups: 9800,
+    ups: 98,
     num_comments: 120,
     created_utc: 1716601000,
     comments: [
@@ -772,11 +772,11 @@ const postSlice = createSlice({
     id: "t3_tech_004",
     title: "Future laptops are getting insanely thin",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://b2c-contenthub.com/wp-content/uploads/2024/04/Lenovo-Yoga-Book-9i-standing-in-landscape.jpg?quality=50&strip=all&w=1200",
     post_hint: "image",
     author: "hardwarefan",
     subreddit: "Technology",
-    ups: 16000,
+    ups: 160,
     num_comments: 55,
     created_utc: 1716601200,
     comments: [
@@ -794,7 +794,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "careerquestion",
     subreddit: "Technology",
-    ups: 12500,
+    ups: 125,
     num_comments: 140,
     created_utc: 1716601400,
     comments: [
@@ -812,7 +812,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "securityguy",
     subreddit: "Technology",
-    ups: 8700,
+    ups: 87,
     num_comments: 31,
     created_utc: 1716601600,
     comments: [
@@ -825,11 +825,11 @@ const postSlice = createSlice({
     id: "t3_tech_007",
     title: "The future of smart homes looks wild",
     selftext: "",
-    url: "https://images.unsplash.com/photo-3",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9WqbyRA3WqsvK3ypHCcTCKa0Wm-OygMrIv7MWb_nRyg&s=10",
     post_hint: "image",
     author: "smarthomefan",
     subreddit: "Technology",
-    ups: 19100,
+    ups: 191,
     num_comments: 62,
     created_utc: 1716601800,
     comments: [
@@ -847,7 +847,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "beginnerhelp",
     subreddit: "Technology",
-    ups: 10400,
+    ups: 104,
     num_comments: 77,
     created_utc: 1716602000,
     comments: [
@@ -864,7 +864,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "gymjourney",
     subreddit: "Fitness",
-    ups: 17600,
+    ups: 176,
     num_comments: 88,
     created_utc: 1716600000,
     comments: [
@@ -877,11 +877,11 @@ const postSlice = createSlice({
     id: "t3_fitness_002",
     title: "Gym setup inspiration for home workouts",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPOP2yLtlpUeEp88wNiAA-WpBpnlz8HlRLHmljgYlJ9aPIccwIWVnu4Aqe&s=10",
     post_hint: "image",
     author: "homegym",
     subreddit: "Fitness",
-    ups: 14200,
+    ups: 142,
     num_comments: 39,
     created_utc: 1716600500,
     comments: [
@@ -899,7 +899,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "newlifter",
     subreddit: "Fitness",
-    ups: 12000,
+    ups: 120,
     num_comments: 110,
     created_utc: 1716601000,
     comments: [
@@ -917,7 +917,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "injuryless",
     subreddit: "Fitness",
-    ups: 9800,
+    ups: 98,
     num_comments: 42,
     created_utc: 1716601200,
     comments: [
@@ -935,7 +935,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "nutritionask",
     subreddit: "Fitness",
-    ups: 8700,
+    ups: 87,
     num_comments: 58,
     created_utc: 1716601400,
     comments: [
@@ -948,11 +948,11 @@ const postSlice = createSlice({
     id: "t3_fitness_006",
     title: "Running vs lifting — what changed your body more?",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQ52idBoaxyyg_-x-YTq13eh2tnG68Q6i0oT_I-UkPz0EX_1XpQI8fz0&s=10",
     post_hint: "image",
     author: "cardiovslift",
     subreddit: "Fitness",
-    ups: 13500,
+    ups: 135,
     num_comments: 92,
     created_utc: 1716601600,
     comments: [
@@ -970,7 +970,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "motivationhelp",
     subreddit: "Fitness",
-    ups: 11100,
+    ups: 111,
     num_comments: 77,
     created_utc: 1716601800,
     comments: [
@@ -987,7 +987,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "longtermfit",
     subreddit: "Fitness",
-    ups: 19000,
+    ups: 19,
     num_comments: 66,
     created_utc: 1716602000,
     comments: [
@@ -1004,7 +1004,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "otakudev",
     subreddit: "Anime",
-    ups: 19800,
+    ups: 198,
     num_comments: 210,
     created_utc: 1716600000,
     comments: [
@@ -1017,11 +1017,11 @@ const postSlice = createSlice({
     id: "t3_anime_002",
     title: "Anime art style appreciation post",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvpVm3yL5PwAk6IgA9QFXiep2zsl6Sc19pENAmdYtBbA&s=10",
     post_hint: "image",
     author: "artweeb",
     subreddit: "Anime",
-    ups: 14500,
+    ups: 145,
     num_comments: 48,
     created_utc: 1716600500,
     comments: [
@@ -1039,7 +1039,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "newfan",
     subreddit: "Anime",
-    ups: 13200,
+    ups: 132,
     num_comments: 180,
     created_utc: 1716601000,
     comments: [
@@ -1056,7 +1056,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "cryingweeb",
     subreddit: "Anime",
-    ups: 17600,
+    ups: 176,
     num_comments: 95,
     created_utc: 1716601200,
     comments: [
@@ -1069,11 +1069,11 @@ const postSlice = createSlice({
     id: "t3_anime_005",
     title: "Best fight scene in anime history?",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_-5NkfpKJUbkuWRFvXb3LvM7-TZNPtDrKaYZQuy7eA&s=10",
     post_hint: "image",
     author: "fightfan",
     subreddit: "Anime",
-    ups: 22000,
+    ups: 220,
     num_comments: 130,
     created_utc: 1716601400,
     comments: [
@@ -1091,7 +1091,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "seasonwatcher",
     subreddit: "Anime",
-    ups: 9800,
+    ups: 98,
     num_comments: 60,
     created_utc: 1716601600,
     comments: [
@@ -1104,11 +1104,11 @@ const postSlice = createSlice({
     id: "t3_anime_007",
     title: "Best anime openings of all time?",
     selftext: "",
-    url: "https://images.unsplash.com/photo-3",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbFnk_QnnCowvtJf2_fjIdcUgWIyaZ9_Ed-lgYd2CAtA&s=10",
     post_hint: "image",
     author: "openerfan",
     subreddit: "Anime",
-    ups: 16500,
+    ups: 165,
     num_comments: 73,
     created_utc: 1716601800,
     comments: [
@@ -1126,7 +1126,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "hotweebtake",
     subreddit: "Anime",
-    ups: 11200,
+    ups: 112,
     num_comments: 140,
     created_utc: 1716602000,
     comments: [
@@ -1143,7 +1143,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "hungrydev",
     subreddit: "Food",
-    ups: 16800,
+    ups: 168,
     num_comments: 92,
     created_utc: 1716600000,
     comments: [
@@ -1156,11 +1156,11 @@ const postSlice = createSlice({
     id: "t3_food_002",
     title: "Homemade burger night done right 🍔",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiiZZ6genEl8PhLC-MpJbOzekytV1A_pHRZtYxkJCmKQ&s=10",
     post_hint: "image",
     author: "grillmaster",
     subreddit: "Food",
-    ups: 22100,
+    ups: 221,
     num_comments: 61,
     created_utc: 1716600500,
     comments: [
@@ -1178,7 +1178,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "quickcook",
     subreddit: "Food",
-    ups: 11900,
+    ups: 119,
     num_comments: 80,
     created_utc: 1716601000,
     comments: [
@@ -1195,7 +1195,7 @@ const postSlice = createSlice({
     post_hint: "image",
     author: "steaklover",
     subreddit: "Food",
-    ups: 19800,
+    ups: 198,
     num_comments: 47,
     created_utc: 1716601200,
     comments: [
@@ -1212,7 +1212,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "tastechange",
     subreddit: "Food",
-    ups: 10400,
+    ups: 104,
     num_comments: 73,
     created_utc: 1716601400,
     comments: [
@@ -1229,7 +1229,7 @@ const postSlice = createSlice({
     post_hint: "image",
     author: "sushilover",
     subreddit: "Food",
-    ups: 24500,
+    ups: 245,
     num_comments: 88,
     created_utc: 1716601600,
     comments: [
@@ -1245,7 +1245,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "brushthinker",
     subreddit: "Art",
-    ups: 15400,
+    ups: 154,
     num_comments: 82,
     created_utc: 1716600000,
     comments: [
@@ -1262,7 +1262,7 @@ const postSlice = createSlice({
     post_hint: "image",
     author: "pixelpainter",
     subreddit: "Art",
-    ups: 19800,
+    ups: 198,
     num_comments: 61,
     created_utc: 1716600500,
     comments: [
@@ -1280,7 +1280,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "stuckartist",
     subreddit: "Art",
-    ups: 11200,
+    ups: 112,
     num_comments: 74,
     created_utc: 1716601000,
     comments: [
@@ -1297,7 +1297,7 @@ const postSlice = createSlice({
     post_hint: "image",
     author: "emotioncanvas",
     subreddit: "Art",
-    ups: 17600,
+    ups: 176,
     num_comments: 49,
     created_utc: 1716601200,
     comments: [
@@ -1314,7 +1314,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "artdebate",
     subreddit: "Art",
-    ups: 9800,
+    ups: 98,
     num_comments: 91,
     created_utc: 1716601400,
     comments: [
@@ -1331,7 +1331,7 @@ const postSlice = createSlice({
     post_hint: "image",
     author: "sketchdaily",
     subreddit: "Art",
-    ups: 14200,
+    ups: 142,
     num_comments: 36,
     created_utc: 1716601600,
     comments: [
@@ -1349,7 +1349,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "creativequestion",
     subreddit: "Art",
-    ups: 10100,
+    ups: 101,
     num_comments: 58,
     created_utc: 1716601800,
     comments: [
@@ -1366,7 +1366,7 @@ const postSlice = createSlice({
     post_hint: "image",
     author: "dreamartist",
     subreddit: "Art",
-    ups: 22300,
+    ups: 223,
     num_comments: 67,
     created_utc: 1716602000,
     comments: [
@@ -1383,24 +1383,77 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "goatdebate",
     subreddit: "Soccer",
-    ups: 32000,
+    ups: 32,
     num_comments: 410,
     created_utc: 1716600000,
     comments: [
-      { id: "c1", author: "messi_fan", body: "Messi clears, no debate." },
-      { id: "c2", author: "ronaldo_fan", body: "Ronaldo is the ultimate goal scorer." }
-    ]
+  {
+    id: "c1",
+    author: "messiGOAT",
+    body: "Messi. That’s it. The way he controls games, creates chances out of nothing, and still scores at an elite level is just different."
+  },
+  {
+    id: "c2",
+    author: "ronaldoFan4Life",
+    body: "Ronaldo. Champions League nights, clutch goals, multiple leagues, insane longevity. People forget how complete he is."
+  },
+  {
+    id: "c3",
+    author: "neutral_view",
+    body: "Honestly it depends what you value more. Messi is pure magic and creativity, Ronaldo is pure athletic dominance and finishing. Both are GOATs in their own way."
+  },
+  {
+    id: "c4",
+    author: "statsnerd",
+    body: "If you look purely at numbers, Ronaldo has more goals, more UCL goals, and has proven himself in more leagues. Hard to ignore that."
+  },
+  {
+    id: "c5",
+    author: "eyeTestGuy",
+    body: "I don’t care about stats. When Messi plays, it literally looks like he’s playing a different sport. That’s the difference for me."
+  },
+  {
+    id: "c6",
+    author: "oldschoolfan",
+    body: "People act like this debate is new but we’ve been arguing Messi vs Ronaldo for like 15+ years at this point. Just enjoy both while they’re gone."
+  },
+  {
+    id: "c7",
+    author: "hot_take_fc",
+    body: "Hot take: the GOAT debate ruined football discourse. Every great moment turns into a comparison instead of just appreciating greatness."
+  },
+  {
+    id: "c8",
+    author: "footballbrain",
+    body: "Messi’s 2022 World Cup run basically sealed it for a lot of people, but Ronaldo’s peak was absolutely unreal too. It’s genuinely close."
+  },
+  {
+    id: "c9",
+    author: "eat4dayz",
+    body: "Are we just forgeting about Pele and Cruff?? Do they not exist?"
+  },
+  {
+    id: "c10",
+    author: "x_Ghost_x",
+    body: "Nickolas Jackson def the goat tbh"
+  },
+  {
+    id: "c11",
+    author: "froboak",
+    body: "Did any of yall see that ronaldo free kick agianst Spain in 2018? A hat trick when his country needed him the most, is it even a debate??"
+  }
+]
   },
 
   {
     id: "t3_soccer_002",
     title: "Insane stadium atmosphere last night 🔥",
     selftext: "",
-    url: "https://images.unsplash.com/photo-1",
+    url: "https://thf.bing.com/th/id/OIP.QW-00iq2dEBNEXqkA4guXAHaEK?cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     post_hint: "image",
     author: "matchdayfan",
     subreddit: "Soccer",
-    ups: 21800,
+    ups: 218,
     num_comments: 92,
     created_utc: 1716600500,
     comments: [
@@ -1418,7 +1471,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "worldcupfan",
     subreddit: "Soccer",
-    ups: 18400,
+    ups: 184,
     num_comments: 150,
     created_utc: 1716601000,
     comments: [
@@ -1431,11 +1484,11 @@ const postSlice = createSlice({
     id: "t3_soccer_004",
     title: "Perfect free kick technique breakdown",
     selftext: "",
-    url: "https://images.unsplash.com/photo-2",
+    url: "https://thf.bing.com/th?id=OIF.1Wn%2bfxlkY7vQqMCFKgsTkg&cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     post_hint: "image",
     author: "setpiecepro",
     subreddit: "Soccer",
-    ups: 14200,
+    ups: 142,
     num_comments: 47,
     created_utc: 1716601200,
     comments: [
@@ -1453,7 +1506,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "footballanalyst",
     subreddit: "Soccer",
-    ups: 13100,
+    ups: 131,
     num_comments: 98,
     created_utc: 1716601400,
     comments: [
@@ -1466,11 +1519,11 @@ const postSlice = createSlice({
     id: "t3_soccer_006",
     title: "Top 10 goals that still give chills",
     selftext: "",
-    url: "https://images.unsplash.com/photo-3",
+    url: "https://thf.bing.com/th/id/OIP.CIlr_AHRGjZNfuhrFDrQPQHaFL?cb=thfc1falcon2&rs=1&pid=ImgDetMain&o=7&rm=3",
     post_hint: "image",
     author: "goalcollector",
     subreddit: "Soccer",
-    ups: 26000,
+    ups: 26,
     num_comments: 73,
     created_utc: 1716601600,
     comments: [
@@ -1488,7 +1541,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "refdiscussion",
     subreddit: "Soccer",
-    ups: 15500,
+    ups: 155,
     num_comments: 220,
     created_utc: 1716601800,
     comments: [
@@ -1505,7 +1558,7 @@ const postSlice = createSlice({
     post_hint: "self",
     author: "nextgenwatch",
     subreddit: "Soccer",
-    ups: 19300,
+    ups: 193,
     num_comments: 140,
     created_utc: 1716602000,
     comments: [
