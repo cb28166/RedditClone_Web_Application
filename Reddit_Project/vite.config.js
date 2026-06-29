@@ -17,5 +17,9 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/reddit/, '')
       }
     }
+  },
+
+  test: {
+    environment: 'jsdom'
   }
 })

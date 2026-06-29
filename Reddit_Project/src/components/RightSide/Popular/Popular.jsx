@@ -21,7 +21,7 @@ function Popular() {
             {popularSubreddits?.map((subreddit) => {
 
                 return (
-                    <button className="popular_buttons" onClick={() => {
+                    <button key={subreddit.name} className="popular_buttons" onClick={() => {
                         console.log("This is the popular subreddit chosen: " + subreddit.name)
                         dispatch(setSelectedSubReddit(subreddit.name))
                         dispatch(addRecent(subreddit.name))}}>
