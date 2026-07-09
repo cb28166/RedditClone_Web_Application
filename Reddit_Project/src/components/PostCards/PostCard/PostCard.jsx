@@ -21,6 +21,8 @@ function PostCard({ id, title, author, subreddit, selftext, date, ups, comments,
         (state) => state.posts.userVotes[id]
     );
 
+    console.log(text.length);
+
     return (
         <div className="postCard">
             <div className="top_post_info">
