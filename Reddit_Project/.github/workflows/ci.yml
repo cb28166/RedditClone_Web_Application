@@ -1,4 +1,4 @@
-name: Reddit Project CI
+name: Reddit Project CI Test
 
 on:
   push:
