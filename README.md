@@ -1,5 +1,7 @@
 # Reddit Clone Web Application 
 
+![CI](https://github.com/cb28166/RedditClone_Web_Application/actions/workflows/ci.yml/badge.svg)
+
 A Reddit-inspired web application built with React, Redux Toolkit, JavaScript, and Express.js that recreates core Reddit functionality, including browsing subreddit feeds, interacting with posts, voting, and viewing comments. The project also demonstrates automated testing and CI/CD using GitHub Actions
 
 ## Live Demo
