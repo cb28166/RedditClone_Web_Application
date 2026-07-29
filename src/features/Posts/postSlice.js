@@ -329,7 +329,7 @@ const postSlice = createSlice({
     id: "t3_gaming_003",
     title: "Best open-world games that actually respect your time?",
     selftext:
-      "Looking for games that don’t feel like endless grind but still have depth and exploration.",
+      "Looking for games that don’t feel like endless grind but still have depth and exploration. I feel like games today hark about having 'open worlds' but most of the time they are just bland auto-generated spaces, with nothing interesting or captivating about them. Ideally I want a true open world game filled with life ya know? Im so tired of it just being an hour of traversing bland worlds with nothing in them.",
     url: "",
     post_hint: "self",
     author: "efficientgamer",
