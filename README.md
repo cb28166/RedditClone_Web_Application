@@ -57,6 +57,16 @@ React Testing Library
 GitHub Actions
 GitHub Pages
 
+## Architecture
+
+The application is built using a component-based React architecture with Redux Toolkit for global state management.
+
+- **Posts Slice** – manages posts and voting state
+- **Subreddits Slice** – tracks the selected subreddit
+- **Recents Slice** – stores recently viewed subreddits 
+- **Components** – reusable UI components such as PostCard, Comments, Navbar, and Popular
+- **Express Server** – provides backend support for future API integration
+
 ## Instillation
 
 ```bash
