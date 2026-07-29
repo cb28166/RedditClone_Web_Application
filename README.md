@@ -6,6 +6,20 @@ A Reddit-inspired web application built with React, Redux Toolkit, JavaScript, a
 
 https://cb28166.github.io/RedditClone_Web_Application/
 
+## ScreenShots
+
+### Home Feed
+
+![Home Feed](public/HomePage.jpg)
+
+### Comments
+
+![Comments](public/ExpandedComments.jpg)
+
+### Expanded Post
+
+![Expanded Post](public/LongComment.jpg)
+
 ## Features
 
 - Browse posts from multiple subreddit feeds
